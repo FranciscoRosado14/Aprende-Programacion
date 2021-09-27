@@ -1,0 +1,17 @@
+Ideas:
+
+Cuadro con el titulo centralizado en la pagina principal y que aparezca en todas.
+
+Que se explique el concepto de diseno de la pagina para todas 
+las demas paginas ramas.
+
+En las paginas secundarias, que aparezca un boton para regresar, 
+	tanto a la pag anterior como enlaces en los pasos anteriores, 
+	y que el nombre del sitio redireccione hacia la pagina principal.
+
+el nexo tendra enlaces a HTML, CSS, Javascript, SQL server, Inteligencia
+artifical y juegos dentro de esos enlaces se explicara la historia 
+de estos y luego lista de los ejercicios para cada uno.
+
+El nexo sera solo de introduccion acerca de mi y programacion en general.
+
