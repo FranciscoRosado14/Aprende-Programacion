@@ -1,0 +1,201 @@
+html {
+    font-size: 16px;
+}
+
+header {
+    color: #00fcbd;
+    background-color: #284b63;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+section {
+    padding: 2.5rem 0;
+    text-align: center;
+}
+.introduccion {
+    background: rgb(110, 40, 40);
+    color: #ffffff;
+}
+
+.contenido {
+    background: #353535;
+    color: white;
+
+}
+
+footer {
+    background: #353535;
+    padding: 2rem 0;
+    text-align: center;
+    color: #868686;
+}
+
+.titulos {
+    margin: 0 auto;
+    padding: 0 1.25rem 0 1.25rem;
+    max-width: 56.25rem;
+}
+
+.tp {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+.ts {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 3.125rem;
+    color: white;
+}
+
+.boton {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    background: #549DA0;
+    border: none;
+    border-radius: 0.3125rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #468486;
+}
+
+.cc {
+    width: 19%;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.cc img {
+    width: 60%;
+}
+
+.imgcss {
+    height: 11.25rem;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+blockquote p {
+    margin: 0 0 0.3125rem 0;
+    font-size: 1.5rem;
+}
+
+blockquote cite {
+    font-size: 1.125rem;
+    font-style: italic;
+}
+
+blockquote cite::before {
+    content: '-';
+    margin-right: 0.3125rem;
+}
+
+footer {
+    background: #0c0c0c;
+    padding: 2rem 0;
+    text-align: center;
+    color: #868686;
+    font-size: 0.875rem;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li a {
+    padding: 0.625rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #c3c3c3;
+
+}
+
+footer li a:hover {
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+@media screen and (max-width: 480px){
+    .boton {
+        font-size: 1.125rem;
+        display: block;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 0 0 0.5rem 0;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+    }
+    
+    section {
+        padding: 1.5625rem 0 0.9375rem 0;
+    }
+
+    .cc {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0 0 0.625rem 0;
+        font-size: 1rem;
+    }
+
+    .cc img {
+        width: 15%;
+        min-width: 3.75rem;
+        margin-right: 1.25rem;
+    }
+
+    .contenedor {
+        display: flex;
+    }
+
+    .contenedor div {
+        flex: 1;
+    }
+
+    .introduccion {
+        padding: 1.875rem 0;
+    }
+
+    blockquote p {
+        font-size: 1.125rem;
+    }
+
+    blockquote cite {
+        font-size: 0.875rem;
+    }
+
+    footer {
+        padding: 1.875rem 0 0.625rem 0;
+    }
+
+    footer li {
+        display: block;
+        margin: 0.3125rem 0;
+    }
+}
