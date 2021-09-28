@@ -172,6 +172,7 @@ body {
 
     .contenedor {
         display: flex;
+        align-items: stretch;
     }
 
     .contenedor div {
