@@ -156,7 +156,7 @@ body {
 
     .cc {
         width: 100%;
-        display: block;
+        display: flex;
         align-items: center;
         justify-content: center;
         text-align: left;
@@ -169,7 +169,7 @@ body {
         min-width: 3.75rem;
         margin-right: 1.25rem;
     }
-
+    /*
     .contenedor {
         display: flex;
         align-items: stretch;
@@ -178,7 +178,7 @@ body {
     .contenedor div {
         flex: 1;
     }
-
+*/
     .introduccion {
         padding: 1.875rem 0;
     }
